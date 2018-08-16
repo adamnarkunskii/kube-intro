@@ -28,17 +28,23 @@ A container image is a lightweight, standalone, executable package of software t
 
 --
 
-- system libraries, and
+- system libraries,
 
 --
 
-- settings.
+-  and settings.
 
 ---
 
 # Containers 🐳
 
-The most widespread and de-facto standard container runtime is *Docker*.
+.center[The most widespread and de-facto standard container runtime is
+
+# DOCKER
+
+but that's for another talk.]
+
+
 
 ---
 
