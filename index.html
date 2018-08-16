@@ -4,25 +4,204 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Presentation Title</title>
-    <meta name="description" content="Some description about the slides">
-    <meta name="author" content="You">
+    <title>Introduction to Kubernetes</title>
+    <meta name="description" content="Introduction to Kubernetes">
+    <meta name="author" content="Adam Narkunski">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://kubernetes.io/images/favicon.png">
   </head>
   <body>
     <textarea id="source">class: center, middle
 
-# Hello Mariapaola
+![:scale 40%](https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png)
+
+# Introduction to Kubernetes
+
+### 👩‍🚀👨‍🚀👨‍🚀👨‍🚀👨‍🚀👨‍🚀👨‍🚀
+
 ---
 # Agenda
 
-1. Introduction
-2. Deep-dive
-3. ...
+--
+
+1. What is Kubernetes?
+
+--
+
+2. What Kubernetes is _Not_?
+
+--
+
+3. Kubernetes Concepts
+
+--
+
+4. Demo _!!_ 🚀
 
 ---
-# Introduction
 
+
+# What is Kubernetes ⚓
+
+
+### An open-source container-orchestration system 
+
+--
+
+### for automating deployment, scaling and management
+
+--
+
+### of containerized applications.
+
+
+---
+
+# What is Kubernetes ⚓
+
+Open-sourced by Google in 2014.
+
+On March 6, 2018 Kubernetes Project reached ninth place in commits at Github, and second place in authors and issues, just below Linux Project.
+
+The name originates from Greek, meaning 'Captain' or 'Helmsman'. K8s is just an abbreviation.
+
+---
+
+
+# What can it do? 
+
+Kubernetes provides a container-centric management environment. 
+
+It orchestrates computing, networking, and storage infrastructure on behalf of user workloads.
+
+Facilitates declarative configuration and automation.
+
+It has a large, rapidly growing ecosystem.
+
+---
+
+# What Kubernetes is _Not_
+
+Kubernetes is not a mere orchestration system. In fact, it eliminates the need for orchestration.
+
+--
+
+The technical definition of orchestration is execution of a defined workflow: first do A, then B, then C. 
+
+--
+
+In contrast, Kubernetes is comprised of a set of independent, composable control processes that continuously drive the current state towards the provided desired state.
+
+--
+
+It shouldn’t matter how you get from A to C. Centralized control is also not required. 
+
+--
+
+This results in a system that is easier to use and more powerful, robust, resilient, and extensible.
+
+---
+
+class: center, middle
+
+### (short detour)
+### 🚨
+
+---
+
+# Containers 🐳
+
+--
+
+## .center[Package Software into Standardized Units for Development, Shipment and Deployment]
+
+---
+
+# Containers 🐳
+
+A container image is a lightweight, standalone, executable package of software that includes *everything* needed to run an application: 
+
+--
+
+- code,
+
+--
+
+- runtime,
+
+--
+
+- system libraries, and
+
+--
+
+- settings.
+
+---
+
+# Containers 🐳
+
+The most widespread and de-facto standard container runtime is *Docker*.
+
+---
+
+class: center, middle
+
+### (back to k8s)
+### ⚓
+
+---
+
+# Kubernetes Concepts
+
+- Pods 🤖
+
+--
+
+- Controllers 👮‍♀️
+
+  - Deployments 🏪
+
+  - Jobs (run to completion) 🎟
+
+  - ...
+
+--
+
+- Services ⛩
+
+--
+
+- Configuration, Networking, Ingress, ... 🐾
+
+---
+
+# Pods 🤖
+
+---
+
+# Controllers 👮‍♀️
+
+---
+
+# Services ⛩
+
+---
+
+
+# Demo Time! 
+
+# 🚀
+
+
+---
+
+class: middle, center
+
+
+# Questions?
+
+![:scale 20%](https://pbs.twimg.com/media/DkPYl4VW0AENoe3.jpg) ![:scale 20%](https://pbs.twimg.com/media/DkPYl4aXcAE_MUi.jpg)
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
     <script>window.remark || document.write(
