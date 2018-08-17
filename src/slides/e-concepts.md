@@ -62,6 +62,8 @@ class: center, middle
 
 # Kubernetes Concepts
 
+--
+
 - Pods 🤖
 
 --

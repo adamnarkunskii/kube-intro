@@ -1,6 +1,9 @@
 class: middle, center
 
+# Questions _??_
 
-# Questions?
 
-![:scale 20%](https://pbs.twimg.com/media/DkPYl4VW0AENoe3.jpg) ![:scale 20%](https://pbs.twimg.com/media/DkPYl4aXcAE_MUi.jpg)
+![:scale 30%](https://i.imgur.com/g6PwK2I.jpg) ![:scale 30%](https://i.imgur.com/J7jIDg8.jpg)
+
+
+---

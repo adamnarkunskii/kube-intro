@@ -13,6 +13,7 @@
 
 ### of containerized applications.
 
+🐾
 
 ---
 
@@ -29,6 +30,8 @@
 
 
 ### The name originates from Greek, meaning 'Captain' or 'Helmsman'. K8s is just an abbreviation.
+
+🐾
 
 ---
 
@@ -48,5 +51,7 @@
 --
 
 ### It has a large, rapidly growing ecosystem.
+
+🐾
 
 ---
